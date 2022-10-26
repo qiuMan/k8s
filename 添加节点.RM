@@ -1,5 +1,4 @@
-## docker 降版本
-yum downgrade --setopt=obsoletes=0 -y docker-ce-19.03.13-3.el7 docker-ce-cli-19.03.13-3.el7
+
 
 ## 添加节点 在节点机器上执行
 kubeadm join 192.168.62.130:6443 --token 7gqt13.kncw9hg5085iwclx \
